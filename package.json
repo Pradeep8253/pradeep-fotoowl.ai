@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run build",
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm --workspaces --if-present run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint ."

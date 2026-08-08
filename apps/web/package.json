@@ -9,12 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@media/media-core": "*",
+    "@media/media-react": "*",
+    "@media/media-ui-react": "*",
     "next": "16.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "@media/media-core": "*",
-    "@media/media-react": "*",
-    "@media/media-ui-react": "*"
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "eslint": "^9",
