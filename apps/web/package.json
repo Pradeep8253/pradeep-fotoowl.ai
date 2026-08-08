@@ -12,9 +12,9 @@
     "next": "16.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "@media/media-core": "workspace:*",
-    "@media/media-react": "workspace:*",
-    "@media/media-ui-react": "workspace:*"
+    "@media/media-core": "*",
+    "@media/media-react": "*",
+    "@media/media-ui-react": "*"
   },
   "devDependencies": {
     "eslint": "^9",
